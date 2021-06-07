@@ -79,7 +79,7 @@ export default {
         /* padding: 50px; */
         width: 90%!important;
         margin: 0;
-        margin-left: 3%;
+        margin-left: 5%;
         text-align: center;
     }
     .testimoni-left, 
@@ -97,6 +97,7 @@ export default {
         height: auto!important;
         width: 90%;
         margin-top: 20px;
+        margin-left: 5%;
         display: block;
         text-align: center;
     }

@@ -21,7 +21,7 @@
                 </div>
                 <div class="paragraf-tiga-right">
                     <p class="paragraf-tiga-topic">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit dolorum voluptates doloribus odit vel quos hic! Similique recusandae nulla, praesentium consequatur facilis veniam enim rerum necessitatibus, dolore obcaecati minima!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, consequatur deleniti ipsam quis minima dolor incidunt ut iusto amet repudiandae hic possimus, asperiores provident? Distinctio in sapiente eaque beatae illo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum culpa accusantium porro deserunt temporibus sit commodi laborum quo eveniet. Accusantium quidem, amet dolorem accusamus reprehenderit consequatur ea a quis tenetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nisi cumque, molestias ipsum et ipsam enim, laudantium, labore necessitatibus assumenda veritatis! Ea culpa mollitia consequatur delectus eius nobis pariatur dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ipsum, illum perferendis natus, quas iusto quasi odio dolores fuga provident maiores dolore esse tempora nostrum expedita! Eveniet ipsa eum aut.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque velit dolorum voluptates doloribus odit vel quos hic! Similique recusandae nulla, praesentium consequatur facilis veniam enim rerum necessitatibus, dolore obcaecati minima!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, consequatur deleniti ipsam quis minima dolor incidunt ut iusto amet repudiandae hic possimus, asperiores provident? Distinctio in sapiente eaque beatae illo? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum culpa accusantium porro deserunt temporibus sit commodi laborum quo eveniet. Accusantium quidem, amet dolorem accusamus reprehenderit consequatur ea a quis tenetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. . 
                     </p><br>
                     
                 </div>
@@ -98,6 +98,12 @@ export default {
         display: block;
         width: 100%;
 
+    }
+    .paragraf-satu-topic {
+        margin-top: 10px                                                                                                                                                                                                     b;
+    }
+    .title-topic {
+        font-size: 32px;
     }
     .paragraf-tiga-topic {
         margin-left: 0px;

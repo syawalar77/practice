@@ -13,9 +13,12 @@
                 <p class="big-company-right-paragraf">
                     Big company announcement or simple sub-header taking two or more lines
                 </p>
-                <Button
-                    titleBtn="Link 2"
-                />
+                <!-- <NuxtLink to="/detail"> -->
+                    <Button
+                        titleBtn="Link 2"
+                        @click-button="changePages"
+                    />
+                <!-- </NuxtLink> -->
             </div>
         </div>
 </template>
@@ -25,6 +28,15 @@ import Button from '~/components/atoms/Button.vue'
 export default {
     components: {
         Button,
+    },
+    data() {
+        return {
+        }
+    },
+    methods: {
+        changePages() {
+            this.$router.push('/detail')
+        }
     }
 
 }

@@ -9,6 +9,7 @@
                     </p>
                     <Button
                         titleBtn="Link 2"
+                        @click-button="changePages"
                     />
                 </div>
                 <div class="introduction-right">
@@ -31,6 +32,11 @@ import Button from '~/components/atoms/Button.vue'
 export default {
     components: {
         Button,
+    },
+    methods: {
+        changePages() {
+            this.$router.push('/detail')
+        }
     }
 
 }
@@ -50,8 +56,8 @@ export default {
     .introduction {
         justify-content: space-between;
         display: flex; 
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
     }
     .introduction-title {
         font-size: 42px;

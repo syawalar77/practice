@@ -1,6 +1,6 @@
 <template>
     <div class="container-popup">
-        <button @click="popUp()" class="button-close-popup" id="lates">x</button>
+        <button @click="popUp()" class="button-close-popup" id="lates">&times;</button><br>
         <p id="popup">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus repellat sequi, consequuntur dicta maiores repudiandae culpa animi nostrum ipsam odit minus unde in reprehenderit tempore minima voluptate fugit reiciendis. Aspernatur.
         </p>
@@ -48,4 +48,10 @@ export default {
     border: none;
     float: right;
 } 
+@media(max-width: 400px) {
+    .container-popup {
+        width: 90%;
+        margin-left: 2%;
+    }
+}
 </style>

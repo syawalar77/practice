@@ -1,6 +1,8 @@
 <template>
     <div>
-        <button @click="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
+        <button @click="topFunction()" id="myBtn" title="Go to top">
+            &#8593;
+        </button>
     </div>
 </template>
 
@@ -8,7 +10,7 @@
     window.onscroll = function() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 1000) {
 
-                document.getElementById("myBtn").style.display = "block";
+            document.getElementById("myBtn").style.display = "block";
 
         } else {
 
@@ -18,20 +20,6 @@
     }
 export default {
     methods: {
-        
-        // scrollFunction() {
-
-        //     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 1000) {
-
-        //         document.getElementById("myBtn").style.display = "block";
-
-        //     } else {
-
-        //         document.getElementById("myBtn").style.display = "none";
-
-        //     }
-
-        // },
         topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
@@ -43,37 +31,26 @@ export default {
 
 <style>
 #myBtn {
- 
-  display: none;
- 
-  position: fixed;
- 
-  bottom: 20px;
- 
-  right: 30px;
- 
-  z-index: 99;
- 
-  border: none; 
- 
-  outline: none;
- 
-  background-color: #86d0c1;
- 
-  color: white;
- 
-  cursor: pointer;
- 
-  padding: 15px;
- 
-  border-radius: 10px;
- 
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none; 
+    outline: none;
+    background-color: #86d0c1;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+    width: 50px;
+
 }
  
  
 #myBtn:hover {
  
-  background-color: #2c3e50;
+    background-color: #2c3e50;
  
 }
 </style>

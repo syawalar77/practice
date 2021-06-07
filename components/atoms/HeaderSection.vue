@@ -44,7 +44,7 @@ export default {
 
 <style>
 .navbar-right {
-    margin-left: 700px;
+    margin-left: 800px;
 }
 .topnav {
     overflow: hidden;
